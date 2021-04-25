@@ -5,7 +5,7 @@ from datetime import datetime
 from discord.ext import commands
 
 
-tk = config.TOKEN
+tk =TOKEN
 bot = commands.Bot(command_prefix='!')
 
 @bot.event
